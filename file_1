@@ -1,0 +1,15 @@
+I.	Create the repository in Git
+You first start by creating the local repository/folder on your computer the GIT terminal by typing the command $mkdir  filename  to create the directory.
+II.	Initialize the repository in Git
+To initialize the repository by typing the git cmd  $git  init . That makes the folder an actual git repository and changes it to a master/main repository.
+III.	Touch/Vi to create file
+To create a file you touch file with cmd $touch  filename. You then add contents into file by $vi filename to enter the file. Once in the file you have to insert with I key to be able to add/type- in content in the editor. Once that is completed, you have to use the escape key to exit editor and save changes by key :x or :wq! . If you don’t want to save you have to do :q! . You can see the contents of the file by $cat filename.
+IV.	Track or Enable file
+To track to file in git you have to run the cmd $git add filename or $git add  .  to track all files in the folder. You can stop tracking the file by running the cmd $rm  ---cached filename or $ rm  --cached filename.
+V.	Commit the files to the repository
+To commit the files to the repository, you use the cmd $git commit  –m “ info on file change”
+VI.	Check status of  file
+You can check to status of file with the cmd $git status. Files tracked are shown in green color and untracked files shown in red color. 
+VII.	Create the GitHub repository.
+Once everything checks out on you can create the remote private repository on the GitHub website by clicking the create new repository in the user homepage of GitHub.  You have to give the new repository a name and then make sure you private git is clicked so the repository isn’t shared to the world or public for collaboration.  You then initialize the repository and can click to add a Readme file if you know the commands easily. You then click the green create repository button to create the new repository. 
+
